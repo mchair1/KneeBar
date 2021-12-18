@@ -35,3 +35,6 @@ a,a:hover{
 .carousel-caption{
     background-color: rgba(0,0,0,.4);
 }
+.carousel{
+    border: solid rgba(0, 0, 0, 0.671) ;
+}
