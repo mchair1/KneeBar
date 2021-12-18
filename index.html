@@ -12,32 +12,48 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
+    <!-- My css-->
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>Amanda Gallant Art</title>
 </head>
 
 <body>
-    <header>
-        <h1>Amanda Gallant Art</h1>
-        <h3>For all your art needs</h3>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1>Amanda Gallant Art</h1>
+                    <h3>Fine art for fine people</h3>
+                </div>
+            </div>
+        </div>
     </header>
     
     <!--This will be links for the an eventual nav bar-->
-    <div>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Portfolio</a>
-            </li>
-            <li>
-                <a href="#">Contact Us</a>
-            </li>
-            <li>
-                <a href="#">About the Artist</a>
-            </li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#agNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="agNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"href="contactUs.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"href="aboutUs.html">About the Artist</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     
     <!-- ***************This will be the middle portion of the site, some pictures, probably in carousel Format, brief description of services -->
     <div>
@@ -79,5 +95,9 @@
 
         </div>
     </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
