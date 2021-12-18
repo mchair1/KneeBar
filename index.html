@@ -22,14 +22,13 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <h1>The KneeBar</h1>
-                    <h3 class="ml-5">Only the best beta</h3>
+                    <h3>Only the best beta</h3>
                 </div>
             </div>
         </div>
     </header>
-    
     <!--This will be links for the an eventual nav bar-->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
@@ -59,16 +58,25 @@
     <div class="container p-2">
         <div class="row row-content">
             <div class="col">
-                <div id="carouselArtPreview" class="carousel slide" data-ride="carousel">
+                <div id="carouselArtPreview" class="carousel carousel-dark slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="1000">
-                            <img src="img/Bonnie.jpg" class="d-block w-100" alt="Nothing here yet">
+                            <img src="img/obed/obedRoofSunset.jpg" class="d-block w-100" alt="Nothing here yet">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Obed, TN</h5>
+                            </div>
                         </div>
                         <div class="carousel-item"  data-bs-interval="2000">
-                            <img src="img/Bonnie2.jpg" class="d-block w-100" alt="Nothing here yet">
+                            <img src="img/morrison/morrisonOverview.jpg" class="d-block w-100" alt="Nothing here yet">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Morrison, CO</h5>
+                            </div>
                         </div>
                         <div class="carousel-item"  data-bs-interval="3000">
-                            <img src="img/Bonnie3.jpg" class="d-block w-100" alt="Nothing here yet">
+                            <img src="img/contRanch/continentalRanch.jpg" class="d-block w-100" alt="Nothing here yet">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Continental Ranch, TX</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,48 +84,80 @@
             <!-- Not adding any controls for now.  Dog pictures are just a place holder-->
         </div>
         <div class="row">
-            <div class="col">
-                <h2>Welcome</h2>
+            <div class="col text-center">
+                <h2>Featured Crags</h2>
             </div>
         </div>
-        <div class="row row-content">
-            <div class="col">
-                <p>Some Info about amanda</p>
+        <div class="row row-content justify-content-center">
+            <div class="col col-md-6 col-lg-4 p-2">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/obed/obedRoofSunset.jpg" alt="Sunset hitting a roof in at Obed">
+                    <div class="card-body">
+                        <h5 class="card-title">Obed, TN</h5>
+                        <p class="card-text">Obed and Clear Creek offers some fantasic climbing oppurtunities on bullet hard sandstone.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-6 col-lg-4 p-2">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/contRanch/continentalRanch.jpg" alt="Pecos River in Texas">
+                    <div class="card-body">
+                        <h5 class="card-title">Continental Ranch, TX</h5>
+                        <p class="card-text">Continental Ranch is a family owned ranch in Texas with about 200 routes along the Pecos River</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-6 col-lg-4 p-2">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/morrison/morrisonOverview.jpg" alt="Looking out from Morrison Boulders">
+                    <div class="card-body">
+                        <h5 class="card-title">Morrison, CO</h5>
+                        <p class="card-text">Morrison, only a short drive from Denver offers a chance for some quality boldering with a quick approch and great views.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     
     <!-- ****************Footer here with all your normal footer links*****************-->
-    <footer>
+    <footer class="site-footer">
         <!-- Internal Site Links here-->
-        <div>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-                <li>
-                    <a href="#">About the Artist</a>
-                </li>
-            </ul>
-        </div>
-        <!-- ******************* Social Media Links Here ************************-->
-        <div>
-            <a href="">Insta</a>
-            <a href="">Facebook</a>
-            <a href="">Twitter</a>
-            <a href="">YouTube</a>
-        </div>
-        <!-- ****************** General Contact Info ***************************-->
-        <div>
-            <a href="">Phone Number here Maybe</a>
-            <a href="">Email Here</a>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="crags.html">Crags</a>
+                        </li>
+                        <li>
+                            <a href="contactUs.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="aboutUs.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ******************* Social Media Links Here ************************-->
+                <!-- ******************* Need to add links still ************************-->
+                <div class="col-6 col-sm-5 text-center">
+                    <a class="btn btn-social-icon btn-instagram" href=""><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href=""><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href=""><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href=""><i class="fa fa-youtube"></i></a>
+                </div>
+                <!-- ****************** General Contact Info ***************************-->
+                <div class="col-sm4 text-center">
+                    <i class="fa fa-phone fa-lg"></i> <a href="tel:+1-609-280-8146">609-280-8146</a><br />
+                    <i class="fa fa-envelope fa-lg"></i> <a href="mailto:sean.t.mcnair@gmail.com">sean.t.mcnair@gmail.com</a>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
