@@ -3,7 +3,12 @@ body{
 }
 h3{
     font-family: "Lobster", cursive;
+    margin: 20 px;
 }
 .navbar{
-    background-color: rgb(6, 43, 43);
+    background-color: black;
+}
+.jumbotron{
+    margin: 0;
+    padding: 20px 0;
 }
