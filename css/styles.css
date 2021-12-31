@@ -21,6 +21,7 @@ h3{
     
 }
 .site-footer{
+    position: relative;
     background-image: linear-gradient(gray,black);
     padding: 20px 0;
     color: blanchedalmond
