@@ -1,5 +1,6 @@
 body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100hv;
 }
 h3{
     font-family: "Lobster", cursive;
@@ -18,10 +19,11 @@ h3{
     padding: 50px, 0;
     border-bottom:1px ridge;
     min-height: 100px;
-    
 }
 .site-footer{
     position: relative;
+    bottom: 0;
+    width: 100%;
     background-image: linear-gradient(gray,black);
     padding: 20px 0;
     color: blanchedalmond
@@ -39,3 +41,15 @@ a,a:hover{
 .carousel{
     border: solid rgba(0, 0, 0, 0.671) ;
 }
+.sticky{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.media{
+    margin: auto;
+}
+.modal-header{
+    background-color: lightskyblue;
+}
+
